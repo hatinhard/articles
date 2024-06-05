@@ -14,17 +14,17 @@ h1 {
 }
 
 .articles-showcase__card {
-  background-color: #fff;
   max-width: 376px;
+  background-color: #fff;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 4px 8px 16px 0px #ff663333;
 }
 
 .articles-showcase__card__text {
+  height: 258px;
   display: flex;
   flex-direction: column;
-  max-width: 356px;
   padding: 10px;
 }
 
@@ -47,17 +47,21 @@ time {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  flex-grow: 2;
+  height: 130px;
+  flex-grow: 1;
 }
 
 .articles-showcase__card__text__link {
-  margin-top: 10px;
-  margin-left: 10px;
   padding: 8px;
   color: white;
   background-color: #70c05b;
-  display: inline-block;
   transition: 0.2s;
+  border-radius: 4px;
+  margin-left: 8px;
+  display: block;
+  width: 150px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .articles-showcase__card__text__link:hover {
