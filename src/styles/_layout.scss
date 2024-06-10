@@ -4,3 +4,8 @@
   box-sizing: content-box;
   padding: 0 16px;
 }
+
+.flex-wrapper {
+  display: flex;
+  gap: 30px;
+}
