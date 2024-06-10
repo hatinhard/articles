@@ -24,14 +24,6 @@ a {
   gap: 30px;
 }
 
-.articles__title {
-  color: #414141;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 54px;
-  margin-bottom: 60px;
-}
-
 .card {
   max-width: 376px;
   background-color: #fff;
@@ -72,7 +64,6 @@ a {
   flex-grow: 1;
   height: 130px;
 }
-
 .card__link {
   color: white;
   background-color: #70c05b;
@@ -94,4 +85,11 @@ a {
   background-color: #fbf8ec;
   padding-top: 294px;
   padding-bottom: 163px;
+}
+.articles__title {
+  color: #414141;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 60px;
 }/*# sourceMappingURL=style.css.map */

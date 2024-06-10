@@ -41,22 +41,21 @@
     flex-grow: 1;
     height: 130px;
   }
-}
+  &__link {
+    color: white;
+    background-color: #70c05b;
+    padding: 8px;
+    width: 150px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: 0.3s;
 
-.card__link {
-  color: white;
-  background-color: #70c05b;
-  padding: 8px;
-  width: 150px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  border-radius: 4px;
-  margin-top: 10px;
-  transition: 0.3s;
-
-  &:hover {
-    color: #70c05b;
-    background-color: #e5ffde;
+    &:hover {
+      color: #70c05b;
+      background-color: #e5ffde;
+    }
   }
 }
